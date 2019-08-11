@@ -42,6 +42,7 @@ class TestKafkaStateCheck extends CuratorAwareTest with KafkaServerInTest with M
     //  FakeApplication(additionalConfiguration = Map("kafka-manager.zkhosts" -> kafkaServerZkPath))
     //}
     //Play.start(app)
+
     import scala.collection.JavaConverters._
     val config = ConfigFactory.parseMap(
       Map(
